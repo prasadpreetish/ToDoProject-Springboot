@@ -8,6 +8,6 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String getFirstPage(){
-        return "Hello from first page";
+        return "Hello from first page in welcome controller ";
     }
 }
